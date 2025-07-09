@@ -327,7 +327,7 @@
 
   <div class="cover">
     <img id="cover-image"
-         src="https://live.staticflickr.com/65535/54641958785_efea9828af_n.jpg"
+         src="https://live.staticflickr.com/65535/54643882643_b62108712b_n.jpg"
          alt="Capa do Álbum" />
   </div>
 
@@ -338,7 +338,7 @@
           Selecione um Capítulo
         </div>
         <div class="album-title" id="album-title">
-          A Guerra do Espírito
+          As Armadilhas Do Inimigo
         </div>
         <button class="menu-btn" id="menu-btn">⋮</button>
       </div>
@@ -528,7 +528,6 @@
           artist: 'As Armadilhas Do Inimigo',
           artwork: [{ src: coverImage.src, sizes:'300x300', type:'image/jpeg' }]
         });
-        navigator.mediaSession.playbackState = isPlaying ? 'playing' : 'paused';
         navigator.mediaSession.setActionHandler('play', playPause);
         navigator.mediaSession.setActionHandler('pause', playPause);
         navigator.mediaSession.setActionHandler('previoustrack', prevTrack);
